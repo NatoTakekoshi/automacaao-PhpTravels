@@ -5,7 +5,7 @@ describe('Realizar tentativas de login', () => {
       cy.preencherDadosLogin(Cypress.env('user_default'),Cypress.env('password_default'));
 
     })
-
+    //Realiza o login
     it('Tentativa de login informando as credenciais corretas', () => {
       cy.realizarLogin(Cypress.env('user_default'), Cypress.env('password_default'));
   
