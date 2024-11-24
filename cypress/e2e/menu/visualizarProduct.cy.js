@@ -6,7 +6,7 @@ describe('Acessar menu de produtos', () => {
         cy.get('.navbar-nav > :nth-child(1) > .nav-link').click();
     })
 
-    it.only('Visualizar Themes', () => {
+    it('Visualizar Themes', () => {
         cy.get(':nth-child(1) > .dropdown-menu > :nth-child(1) > .dropdown-item').click();
         cy.contains('h1', 'Themes').should('be.visible');
 

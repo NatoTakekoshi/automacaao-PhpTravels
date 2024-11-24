@@ -1,3 +1,5 @@
+
+
 describe('Realizar tentativas de login', () => {
 
     beforeEach(() => {
@@ -7,7 +9,8 @@ describe('Realizar tentativas de login', () => {
     })
     //Realiza o login
     it('Tentativa de login informando as credenciais corretas', () => {
-      cy.realizarLogin(Cypress.env('user_default'), Cypress.env('password_default'));
+      cy.realizarLogin("aaaaa@aaaa", Cypress.env('password_default'));
+      //Cypress.env('user_default')
   
     })
 
@@ -26,6 +29,8 @@ describe('Realizar tentativas de login', () => {
         expect(text).to.contains('Password is required to login');
       });
     })
+
+
 
   })
   

@@ -1,0 +1,20 @@
+{
+    "usuariosInvalidos":[
+        {
+            "email":"aaaaaa@aaaa",
+            "senha":"1a1a1a1a"
+
+        },
+        {
+            "email":"bbbbb@bbbb",
+            "senha":"2b2b2b2b"
+
+        },
+        {
+            "email":"ccccc@cccc",
+            "senha":"3c3c3c3c"
+
+        }
+    ]
+    
+}

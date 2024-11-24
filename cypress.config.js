@@ -10,13 +10,13 @@ module.exports = defineConfig({
     },
     //testIsolation: false,
     baseUrl: 'https://phptravels.com',
-    reporte: 'mochawesome',
+    reporte: 'mochawensome',
     reporterOptions: {
       reportDir: 'cypress/results',
       overwrite: false,
       html: true,
       json: false,
-      timestamp: "mmddyyyy_HHMMss" }
+      timestamp: "mm/dd/yyyy_HH:MM:ss" }
   },
 
  
