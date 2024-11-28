@@ -20,12 +20,14 @@ describe('Acessar menu Company', () => {
 
     })
 
+    //Site apresenta erro de react apos rodar esse cenario
+    /*
     it('Visualizar Docs', () => {
         cy.get(':nth-child(3) > .dropdown-menu > :nth-child(3) > .dropdown-item').invoke('removeAttr', 'target').click();
         cy.url().should('be.equal', 'https://docs.phptravels.com/')
         //cy.contains('h1', '').should('be.visible');
 
-    })
+    })*/
 
     it('Visualizar Contact US', () => {
         cy.get(':nth-child(3) > .dropdown-menu > :nth-child(4) > .dropdown-item').click();

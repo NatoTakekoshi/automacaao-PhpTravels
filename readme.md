@@ -10,10 +10,13 @@ Acesso aos sub-itens dos menus de Product, Features e Company
 
 ## Requisitos necessarios:
 Node.js
+
 Mochawsome
 
 ## Estrutura de pastas:
-**e2e**: Cntem os scripts de automação, separado por funcionalidades do site.
+**e2e**: Contem os scripts de automação, separado por funcionalidades do site.
+
+**fixtures**: Contem a massa utilizada nos testes.
 
 **results**: Onde é armazenado as evidencias dos testes executados via terminal.
 
@@ -24,7 +27,7 @@ Mochawsome
 ## Instalaçao e execução
 Clonar repositorio
 
-    git clone (a definir)
+    git clone automacao-PhpTravels
 
 No terminal, dentro da pasta do projeto, executar os camandos para a instalação das dependencias
 
@@ -45,6 +48,15 @@ Executar o cypress
     Executar um cenario especifico no headless
 
         npx cypress run --spec "[caminho para spec]"
+    
+    Executar atraves do mochawesome
+
+        npx cypress run --reporter mochawesome
+
+    Executar atraves do cypress cloud
+
+        npx cypress run --record --key (inserir a chave gerada no cypress)
+
 
 ## Autor
 **Renato Takekoshi Miranda**
